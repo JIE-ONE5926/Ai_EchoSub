@@ -1,0 +1,24 @@
+# ---- 运行时生成 ----
+config.json
+提示词_config.json
+*.log
+logs/
+字幕记录/
+
+# ---- 模型（体积大，首次运行自动下载，不入库）----
+models/
+
+# ---- 构建产物 ----
+dist/
+build/Ai_EchoSub/
+*.toc
+*.pyz
+
+# ---- 虚拟环境 ----
+venv/
+.venv/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/

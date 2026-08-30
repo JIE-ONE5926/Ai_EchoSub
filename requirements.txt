@@ -1,0 +1,10 @@
+# Ai_EchoSub 桌面版运行+打包依赖（Python 3.12）
+# 引擎运行时依赖（与 D:\Ai_EchoSub 原 venv 版本对齐）
+faster-whisper==1.2.1
+pyaudiowpatch==0.2.12.8
+numpy==2.5.2
+# 前端界面
+PySide6>=6.6
+# 打包工具
+pyinstaller>=6.0
+pyinstaller-hooks-contrib
